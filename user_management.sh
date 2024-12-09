@@ -65,11 +65,11 @@ while [ $# -gt 0 ]; do
 			list_users
 			;;
 		*)
-			echo "Error: Invalid option "$1". Use "--help" to see available options."
+			echo "Error: Invalid option "$1". Use "-h" to see available options."
 			exit 1
 			;;
 		esac
 		shift
 done
     
-}
+
